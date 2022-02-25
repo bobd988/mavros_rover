@@ -1,0 +1,6 @@
+devel_space: /home/demo/mavros_controllers_ws/devel
+install: false
+install_space: /home/demo/mavros_controllers_ws/install
+profile: default
+source_space: /home/demo/mavros_controllers_ws/src
+workspace: /home/demo/mavros_controllers_ws
