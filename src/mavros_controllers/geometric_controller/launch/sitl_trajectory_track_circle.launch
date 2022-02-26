@@ -1,5 +1,5 @@
 <launch>
-  <arg name="mav_name" default="iris"/>
+  <arg name="mav_name" default="rover"/>
   <arg name="fcu_url" default="udp://:14540@127.0.0.1:14557"/>
   <arg name="gcs_url" default="" />
   <arg name="tgt_system" default="1" />
@@ -54,7 +54,7 @@
   </include>
 
   <include file="$(find px4)/launch/posix_sitl.launch">
-      <arg name="vehicle" value="$(arg mav_name)"/>
+      <arg name="vehicle" value="rover"/>
   </include>
 
   <group if="$(arg visualization)">
